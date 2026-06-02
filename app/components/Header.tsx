@@ -14,13 +14,11 @@ export default function Header() {
     <header className="w-full h-30 border-b-2 border-b-black/10">
       <div className="flex w-full h-30 px-[8%] justify-between items-center">
         
-        <div className="flex gap-x-5">
-          <div className="flex">
-            <Image src="/tutorvictory-logo.png" width={300} height={100}/>
-          </div>
+        <div className="flex gap-x-10">
+          <Link href="/" className="text-2xl whitespace-nowrap font-bold">Tutor Victory</Link>
           <div className="flex w-full">
-            <nav className="flex items-center gap-x-10 text-gray-900 font-primary-font">
-              <Link href="/about" className="hover:cursor-pointer">About Us</Link>
+            <nav className="flex items-center gap-x-7 text-gray-900 font-primary-font text-md">
+              <Link href="/about" className="hover:cursor-pointer font-primary-font">About Us</Link>
               <div className="flex gap-x-2 justify-center items-center hover:cursor-pointer" onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
                 <button className="hover:cursor-pointer">Our Services</button>
                 <ChevronDown size={20} className={`transition-transform duration-300 ${isFlipped ? 'rotate-180' : 'rotate-0'}`}/>
