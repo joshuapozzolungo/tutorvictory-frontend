@@ -1,0 +1,12 @@
+.menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.625rem 0.5rem;
+  border-radius: 8px;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  color: var(--color-call-to-action);
+  background-color: var(--color-hover);
+}
