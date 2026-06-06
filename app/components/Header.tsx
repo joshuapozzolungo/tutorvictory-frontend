@@ -37,7 +37,7 @@ export default function Header() {
                   <span>Our Services</span>
                   <ChevronDown size={15} className={`transition-transform duration-300 ${isFlipped ? 'rotate-180' : 'rotate-0'}`}/>
                 </Link>
-                <div className={`absolute -left-1/3 pt-7 ${isFlipped ? '' : 'hidden'}`}>
+                <div className={`absolute -left-1/3 pt-5 ${isFlipped ? '' : 'hidden'}`}>
                   <div className="w-100 h-75 pt-5 bg-hover rounded-md">
 
                   </div>
