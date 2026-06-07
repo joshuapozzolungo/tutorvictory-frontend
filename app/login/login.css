@@ -1,0 +1,14 @@
+.or {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  font-size: small;
+}
+
+.or::before,
+.or::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: black;
+}
