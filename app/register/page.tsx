@@ -16,11 +16,11 @@ export default function RegisterPage() {
       
       <div className="flex flex-col items-center justify-center bg-bg-base">
 
-        <div className="flex flex-col gap-y-3 w-[65%] h-[50%] rounded-md p-5">
+        <div className="flex flex-col gap-y-3 w-[55%] h-[50%] rounded-md p-5">
           
           <h1 className="text-xl font-bold text-center">Create your account</h1>
           
-          <div className="flex flex-col gap-y-4">
+          <div className="flex flex-col gap-y-6">
             
             <div className="relative">
               <input 
@@ -32,7 +32,7 @@ export default function RegisterPage() {
                      autoComplete="name" 
                      autoCapitalize="none" 
                      spellCheck="false"
-                     className="peer w-full px-2 py-3 focus:border-[#6D28FF] focus:ring-1 focus:ring-call-to-action border border-black/20 rounded-md"/>
+                     className="peer w-full px-2 py-2 focus:border-[#6D28FF] focus:ring-1 focus:ring-call-to-action border border-black/20 rounded-md"/>
               <label htmlFor="email" className="absolute bg-white text-sm left-1/20 top-1/2 -translate-y-1/2 transition-all duration-200 
                   peer-focus:top-0 peer-focus:text-xs peer-focus:left-2 peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs
                   peer-[:not(:placeholder-shown)]:left-2">
@@ -50,7 +50,7 @@ export default function RegisterPage() {
                      autoComplete="email" 
                      autoCapitalize="none" 
                      spellCheck="false"
-                     className="peer w-full px-2 py-3 focus:border-[#6D28FF] focus:ring-1 focus:ring-call-to-action border border-black/20 rounded-md"/>
+                     className="peer w-full px-2 py-2 focus:border-[#6D28FF] focus:ring-1 focus:ring-call-to-action border border-black/20 rounded-md"/>
               <label htmlFor="email" className="absolute bg-white text-sm left-1/20 top-1/2 -translate-y-1/2 transition-all duration-200 
                   peer-focus:top-0 peer-focus:text-xs peer-focus:left-2 peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs
                   peer-[:not(:placeholder-shown)]:left-2">
@@ -68,7 +68,7 @@ export default function RegisterPage() {
                      autoComplete="current-password" 
                      autoCapitalize="none" 
                      spellCheck="false"
-                     className="peer w-full px-2 py-3 focus:ring-1 focus:ring-call-to-action border border-black/20 rounded-md"/>
+                     className="peer w-full px-2 py-2 focus:ring-1 focus:ring-call-to-action border border-black/20 rounded-md"/>
               <label htmlFor="password" className="absolute bg-white text-sm left-1/20 top-1/2 -translate-y-1/2 transition-all duration-200 
                   peer-focus:top-0 peer-focus:text-xs peer-focus:left-2 peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:text-xs
                   peer-[:not(:placeholder-shown)]:left-2 focus:border-call-to-action focus:outline-none ">
@@ -77,11 +77,11 @@ export default function RegisterPage() {
             </div>
           </div>
           
-          <button className="block bg-call-to-action p-3 rounded-md text-white text-sm font-medium hover:cursor-pointer hover:bg-call-to-action/80 w-full">
+          <button className="block bg-call-to-action p-2 rounded-md text-white text-sm font-medium hover:cursor-pointer hover:bg-call-to-action/80 w-full">
            Sign Up 
           </button>
 
-          <button className="block p-3 flex justify-center items-center gap-x-2 
+          <button className="block p-2 flex justify-center items-center gap-x-2 
             rounded-md text-white text-sm font-medium hover:cursor-pointer w-full 
             border border-black/20 rounded-md hover:bg-black/2">
             <span>
