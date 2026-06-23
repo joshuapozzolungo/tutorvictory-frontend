@@ -3,7 +3,7 @@
 @theme {
   --color-bg-primary: #7c56dc;
   --color-bg-primary-hover: #e5ddf8;
-  --color-call-to-action: #6D28FF;
+  --color-call-to-action: #8B5CF6;
   --color-hover: #E7E3F2;
   --color-bg-base: #F9FAFB;
   --color-error: #e24b4a;
@@ -11,5 +11,6 @@
   --color-warning: #f0a02d;
   --color-info: #4f7df0;
   --font-primary-font: var(--font-inter), sans-serif;
+  --color-paragraph: #A0A0A0;
 }
 
