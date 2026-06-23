@@ -11,7 +11,7 @@ export default function Header() {
   const toggleHover = () => setIsFlipped(!isFlipped);
 
   return (
-    <header className="w-full flex h-25 border-b-2 border-b-black/10 items-center">
+    <header className="w-full flex h-25 border-b-2 border-b-black/10 items-center sticky backdrop-blur top-0 z-50 bg-white/70">
       
       <div className="flex w-full px-[10%] justify-between items-center"> 
         
