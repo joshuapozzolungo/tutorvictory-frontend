@@ -8,5 +8,5 @@
 .menu-item:hover {
   cursor: pointer;
   color: var(--color-call-to-action);
-  background-color: var(--color-hover);
+  background-color: var(--color-button-hover);
 }

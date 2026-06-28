@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #7C56DC;
+  --color-button-hover: #E5E5E5;
+  --color-paragraph: #A0A0A0;
+  --color-heading: #232323;
+  --color-theme: #8B5CF6;
+  --color-error: #e24b4a;
+  --color-success: #12a366;
+  --color-warning: #f0a02d;
+  --color-info: #4f7df0;
+  --font-primary-font: var(--font-inter), sans-serif;
+}
+
+@layer components {
+  .paragraph-text {
+    @apply text-paragraph font-primary-font text-sm 
+  }
+
+}
+
+

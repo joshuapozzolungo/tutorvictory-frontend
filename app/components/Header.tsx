@@ -32,13 +32,13 @@ export default function Header() {
               <Link href="/pricing">
                 <span className="menu-item">Pricing</span>
               </Link>
-              <div className="relative" onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
-                <Link href="/services" className={`menu-item items-center gap-x-2 ${isFlipped ? 'bg-hover text-call-to-action' : ''}`}>
+              <div className="relative">
+                <button onClick={toggleHover} className={`menu-item items-center gap-x-2 ${isFlipped ? 'bg-button-hover text-call-to-action' : ''}`}>
                   <span>Our Services</span>
                   <ChevronDown size={15} className={`transition-transform duration-150 ${isFlipped ? 'rotate-180' : 'rotate-0'}`}/>
-                </Link>
+                </button>
                 <div className={`absolute -left-1/3 pt-5 origin-top transition-all duration-150 ${isFlipped ? 'opacity-100 scale-100' : 'opacity-0 scale-50'}`}>
-                  <div className="w-100 h-75 pt-5 bg-hover rounded-md">
+                  <div className="w-100 h-75 pt-5 bg-button-hover rounded-md">
 
                   </div>
                 </div>
@@ -55,10 +55,10 @@ export default function Header() {
 
         { /* Login Section */}
         <div className="flex gap-x-5 text-sm font-semibold">
-          <Link href="/login" className="flex items-center hover:text-call-to-action"> 
+          <Link href="/login" className="flex items-center hover:text-theme"> 
             <span>Sign in</span>
           </Link>
-          <button className="px-4 py-2 rounded-md bg-call-to-action text-white hover:cursor-pointer hover:bg-bg-primary/80">Try for free</button>
+          <button className="px-4 py-2 rounded-md bg-theme text-white hover:cursor-pointer hover:bg-theme/80">Try for free</button>
         </div>
       </div>
     </header>

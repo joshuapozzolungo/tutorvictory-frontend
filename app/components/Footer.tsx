@@ -5,12 +5,12 @@ export default function Footer() {
   const footer_headings = ["Product", "Resources", "Company", "Join our Community"]
   
   return (
-    <div className="w-full min-h-120 bg-[#151515] flex flex-col justify-between px-30 pt-20">
+    <div className="w-full min-h-120 bg-primary flex flex-col justify-between px-20 pt-20">
      
       <div className="flex h-[90%]">
         <div className="w-full flex gap-x-30">
           {footer_headings.map((heading) => (
-            <div className="text-white font-bold">
+            <div className="text-heading font-bold">
               {heading}
             </div>
           ))}
@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-paragraph/20 border-t-1 flex justify-between w-full h-[10%] p-10 text-sm">
+      <div className="flex justify-between w-full h-[10%] p-10 text-sm bg-gray-50">
         <div className="text-paragraph"> © 2026 Tutor Victory, All Rights Reserved. </div>
         <div className="text-paragraph flex gap-x-5">
           <Link href="/cancellation-policy" className="hover:underline hover:cursor-pointer">Cancellation Policy</Link>
