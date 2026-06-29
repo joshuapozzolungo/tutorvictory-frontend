@@ -4,7 +4,7 @@
   --color-bg-primary: #FFFFFF;
   --color-bg-secondary: #7C56DC;
   --color-button-hover: #E5E5E5;
-  --color-paragraph: #A0A0A0;
+  --color-paragraph: #737373;
   --color-heading: #232323;
   --color-theme: #8B5CF6;
   --color-error: #e24b4a;
@@ -17,6 +17,15 @@
 @layer components {
   .paragraph-text {
     @apply text-paragraph font-primary-font text-sm 
+  }
+
+  .footer-submenu-headings {
+    @apply text-paragraph font-primary-font text-sm; 
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
   }
 
 }
