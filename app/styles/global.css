@@ -3,7 +3,7 @@
 @theme {
   --color-bg-primary: #FFFFFF;
   --color-bg-secondary: #7C56DC;
-  --color-button-hover: #E5E5E5;
+  --color-button-hover: rgba(139,92,246,0.30);
   --color-paragraph: #737373;
   --color-heading: #232323;
   --color-theme: #8B5CF6;
@@ -25,6 +25,32 @@
     &:hover {
       cursor: pointer;
       text-decoration: underline;
+    }
+  }
+
+  .hero-heading {
+    @apply text-heading text-[65px] font-primary-font font-bold leading-none
+  }
+
+  .hero-subheading {
+    @apply text-heading text-[40px] font-primary-font font-bold 
+  }
+
+  .call-to-action-button-primary {
+    @apply p-3 bg-theme rounded-md text-sm text-white font-primary-font;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.9;
+    }
+  }
+
+  .call-to-action-button-secondary {
+    @apply p-3 border-1 border-theme rounded-md text-sm text-black font-primary-font;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.5;
     }
   }
 
