@@ -18,7 +18,7 @@ export default function Footer() {
     <footer className="w-full min-h-120 flex flex-col justify-between border-t border-t-paragraph/20 bg-primary">
 
       { /* Top Half */}
-      <div className="flex flex-col sm:flex-row items-start gap-y-15 w-full px-10 sm:px-15 pt-15">
+      <div className="flex flex-col sm:flex-row items-start gap-y-15 w-full px-[5%] sm:px-15 pt-15">
 
         <div className="flex flex-col w-full sm:w-[80%] mx-auto gap-y-5 px-5">
           <Link href="/" className="text-2xl whitespace-nowrap font-bold text-heading">Tutor Victory</Link>
@@ -34,11 +34,11 @@ export default function Footer() {
 
         <div className="grid grid-cols-3 w-full md:text-left">
           {footer_headings.map((heading) => (
-            <div key={heading} className="items-center justify-center text-heading font-bold text-sm pl-5">
+            <div key={heading.main} className="items-center justify-center text-heading font-bold text-sm pl-5">
               <h4 className="pb-3">{heading.main}</h4>
               <div className="flex flex-col gap-y-3 pb-10">
                 {heading.submenus.map(submenu => (
-                  <Link href={`/${submenu.url}`} className="footer-submenu-headings">{submenu.heading}</Link>
+                  <Link key={submenu.url} href={`/${submenu.url}`} className="footer-submenu-headings">{submenu.heading}</Link>
                 ))}
               </div>
             </div>
