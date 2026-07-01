@@ -20,24 +20,31 @@
   }
 
   .footer-submenu-headings {
-    @apply text-paragraph font-primary-font text-sm; 
+    @apply text-paragraph font-primary-font font-normal text-sm; 
 
     &:hover {
       cursor: pointer;
       text-decoration: underline;
     }
   }
+  .page-heading {
+    @apply text-heading text-[45px] font-primary-font font-bold leading-none 
+  }
+
+  .page-subheading {
+    @apply text-heading text-[20px] font-primary-font leading-none 
+  }
 
   .hero-heading {
-    @apply text-heading text-[65px] font-primary-font font-bold leading-none
+    @apply text-heading text-[70px] font-primary-font font-bold leading-none
   }
 
   .hero-subheading {
-    @apply text-heading text-[40px] font-primary-font font-bold 
+    @apply text-heading text-[45px] font-primary-font font-bold 
   }
 
   .call-to-action-button-primary {
-    @apply p-3 bg-theme rounded-md text-sm text-white font-primary-font;
+    @apply p-4 bg-theme rounded-md text-sm text-white font-primary-font;
 
     &:hover {
       cursor: pointer;
@@ -46,7 +53,7 @@
   }
 
   .call-to-action-button-secondary {
-    @apply p-3 border-1 border-theme rounded-md text-sm text-black font-primary-font;
+    @apply p-4 text-xs text-black font-primary-font underline;
 
     &:hover {
       cursor: pointer;
