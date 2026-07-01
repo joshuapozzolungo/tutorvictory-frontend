@@ -1,10 +1,10 @@
 import policies from "./data.json";
 
-export default function CancellationPolicy() {
+export default function TermsOfService() {
   return (
     <div className="w-full min-h-screen px-75 py-25">
       <section className="flex flex-col gap-y-5">
-        <h1 className="text-center page-heading">Cancellation Policy</h1>
+        <h1 className="text-center page-heading">Terms of Service</h1>
         <h2 className="text-center page-subheading">Legal Information & Notices</h2>
       </section>
 
@@ -23,3 +23,4 @@ export default function CancellationPolicy() {
     </div>
   )
 }
+

@@ -42,6 +42,10 @@
   .hero-subheading {
     @apply text-heading text-[45px] font-primary-font font-bold 
   }
+  
+  .policy-heading {
+    @apply text-[25px] font-primary-font font-bold
+  }
 
   .call-to-action-button-primary {
     @apply p-4 bg-theme rounded-md text-sm text-white font-primary-font;

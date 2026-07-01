@@ -3,6 +3,32 @@
     {
       "title": "Cancellations and Rescheduling",
       "body": "To cancel or reschedule a tutoring session, please provide at least 24 hours’ notice. This allows us to offer the time slot to another student in need of assistance. Cancellations or rescheduling requests made with less than 24 hours’ notice will be subject to a 50% session fee."
+    },
+    {
+      "title": "No Show Policy",
+      "body": "If a student does not show up for a scheduled session without prior notice, the session will be considered a “no-show” and will incur the full session fee. After two no-shows, we may require prepayment for future sessions."
+    },
+    {
+      "title": "Late Arrivals",
+      "body": "If you are running late, please notify us as soon as possible. Sessions will still end at the scheduled time, and the full session fee will apply. This ensures fairness to the next scheduled student."
+    },
+    {
+      "title": "Emergency Cancellations",
+      "body": "We understand that emergencies happen. If you need to cancel due your child being sick or due to an emergency, please contact us directly. We will assess these situations on a case-by-case basis."
+    },
+    {
+      "title": "Tutor Cancellations",
+      "body": "In the rare case that your tutor needs to cancel or reschedule, we will give as much notice as possible and work with you to find a suitable alternative time. If rescheduling is not possible, you will receive a full refund or credit for the session."
+    },
+    {
+      "title": "Refunds",
+      "body": "Refunds for prepaid sessions will only be issued if cancellations are made more than 24 hours in advance. No refunds will be issued for sessions canceled less than 24 hours before the scheduled time."
+    },
+
+    {
+      "title": "Appreciation",
+      "body": "Thank you for understanding and respecting our policies. If you have any questions, please feel free to contact us at contact@tutorvictory.com.au."
     }
+
   ]
 }
