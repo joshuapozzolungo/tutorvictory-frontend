@@ -1,0 +1,50 @@
+{
+  "sections" : [
+    {
+      "title": "Personal",
+      "body": "At Tutor Victory, we prioritize safety, convenience, and a seamless payment experience for our clients. Our payment policy ensures that you can focus on your learning while we take care of the rest."
+    },
+    {
+      "title": "Payment Options",
+      "body": "At Tutor Victory, we offer flexible payment options to suit your tutoring needs. You can choose to “pay as you go,” paying for each session individually, or opt for a 10-hour tutoring package which provides a discounted rate of $50 for a block of tutoring sessions."
+    },
+    {
+      "title": "Payment Methods",
+      "body": "Payment Methods: Clients may choose between two payment options: Automatic Payment - Payment will be automatically deducted following the completion of each lesson. Manual Payment - Clients are responsible for submitting payment themselves."
+    },
+    {
+      "title": "Payment Timing",
+      "body": "Regardless of the payment method selected, full payment is due on the day of each lesson. Clients making manual payments are welcome to pay in advance, at any point in the days leading up to the scheduled lesson. For those who have opted for pre-paid."
+    },
+    {
+      "title": "Multi-Hour Discount",
+      "body": "Lessons booked for durations exceeding one (1) hour will receive a flat $10 discount off the total lesson price for each additional hour booked beyond the first hour. The first hour is billed at the full base rate; each subsequent hour reduces the total price by $10."
+    },
+    {
+      "title": "Late Payments",
+      "body": " Payment is due on the day of each lesson. If payment is not received within 2 days of the lesson date, a late fee of $20 will be applied to the outstanding balance. If payment remains outstanding beyond 7 days, Tutor Victory reserves the right to pause future lesson bookings until the account is brought current."
+    },
+    {
+      "title": "Referral Policy",
+      "body": "Clients who refer a new student to Tutor Victory will receive one (1) complimentary (1 hour) lesson once the referred individual enrolls and signs on for lessons with us. The referred student must be a new client (not a returning or existing student) for the referral reward to apply. Referral rewards will be credited to the referring client's account within 14 business days of the new student's enrollment."
+    },
+    {
+      "title": "Cancellation Fees and Refunds",
+      "body": "If you cancel a session with less than 24 hours’ notice, the applicable cancellation fee (50% of the session cost) will be charged to your card as per our cancellation policy. Refunds for prepaid sessions or incorrect charges will be processed promptly, typically within 7-10 business days after the refund request is approved."
+    },
+    {
+      "title": "Dispute Resolution",
+      "body": "If you believe there has been an error with a payment or if you would like to discuss a charge, please contact us within seven days of the payment date to resolve the issue."
+    },
+    {
+      "title": "Updating Payment Information",
+      "body": "It is the client’s responsibility to provide up-to-date payment information. If your card details change, please notify us before your next scheduled session to avoid payment interruptions."
+    },
+    {
+      "title": "Declaration",
+      "body": "By scheduling a session with Tutor Victory, you agree to our payment terms. For any questions or assistance with billing, please reach out to contact@tutorvictory.com.au."
+    }
+  ]
+}
+
+
